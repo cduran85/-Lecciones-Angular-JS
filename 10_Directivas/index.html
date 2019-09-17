@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="cronoApp">
+<head>
+    <meta charset="UTF-8">
+    <title>cronoApp</title>
+    <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+    <div ng-controller="clockController">
+        <div class="container">
+            <h1 class="title">Cronómetro App</h1>
+            <div class="center-block" ng-clock get-time="time"></div>
+            <button class="center-block" ng-click="getTimeEnlapse()">Get Time</button>
+
+            <div class="center-block">
+                <div class="frozen-font title">{{frozenTime}}</div>
+            </div>
+        </div>
+    </div>
+    <script src="js/angular.js"></script>
+    <script src="js/moment.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers.js"></script>
+</body>
+</html>

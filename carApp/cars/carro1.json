@@ -1,0 +1,30 @@
+{
+    "manufacturer":{
+        "name": "Lambotghini",
+        "country": "Italia"
+    },
+    "engine":{
+        "gears": 6,
+        "ransmission": "Automatic",
+        "type": "Diesel"
+    },
+    "description": "Description in English of Carro 1",
+    "id": "carro1",
+    "images":[
+        "img/carro1_1.jpg",
+        "img/carro1_2.jpg",
+        "img/carro1_3.jpg"
+    ],
+    "name": "Lamborghini Veneno",
+    "sizeAndWeight": {
+        "dimmensions": [
+            "1806.9 mm (w)",
+            "1595.8 mm (h)",
+            "4377.4 mm (l)"
+        ],
+        "weight": "2646.0 Kg"
+    },
+    "space": {
+        "volume": "4361 lt"
+    }
+}

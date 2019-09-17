@@ -1,0 +1,30 @@
+{
+    "manufacturer":{
+        "name": "Mustang",
+        "country": "USA"
+    },
+    "engine":{
+        "gears": "5",
+        "ransmission": "Automatic",
+        "type": "Diesel"
+    },
+    "description": "Description in English of Carro 2",
+    "id": "carro2",
+    "images":[
+        "img/carro2_1.jpg",
+        "img/carro2_2.jpg",
+        "img/carro2_3.jpg"
+    ],
+    "name": "Mustang GT500",
+    "sizeAndWeight": {
+        "dimmensions": [
+            "1806.9 mm (w)",
+            "1595.8 mm (h)",
+            "4377.4 mm (l)"
+        ],
+        "weight": "2646.0 Kg"
+    },
+    "space": {
+        "volume": "4361 lt"
+    }
+}

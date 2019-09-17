@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html ng-app="moviesBDapp">
+<head>
+    <meta charset="UTF-8">
+    <title>Movies DB App</title>
+
+</head>
+<body>
+    <div>
+        <form class="title">
+            <h1>Movie Database</h1>
+            <label for="">Choose filter</label>
+            <select ng-model="orderProp">
+                <option value="name">Movie name</option>
+                <option value="director">Director's name</option>
+                <option value="review">Review</option>
+                <option value="publishYear">Publish Year</option>
+            </select>
+            <label>Order</label>
+            <select ng-model="reverse">
+                <option value="false">A - Z</option>
+                <option value="true">Z - A</option>
+            </select>
+        </form>
+
+        <hr>
+        <div class="wrapper">
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>Name</th>
+                        <th>Director</th>
+                        <th>Review</th>
+                        <th>Publish Year</th>
+                    </tr>
+                    <tr ng-repeat="movie in movies | orderBy:orderProp:reverse">
+                        <td>{{movie.name}}</td>
+                        <td>{{movie.director}}</td>
+                        <td>{{movie.review}}</td>
+                        <td>{{movie.publishYear}}</td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </div>
+    <script src="js/angular.js"></script>
+    <script src="js/app.js"></script>
+</body>
+</html>

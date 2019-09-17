@@ -1,0 +1,30 @@
+{
+    "manufacturer":{
+        "name": "Mitsubishi",
+        "country": "USA"
+    },
+    "engine":{
+        "gears": "5",
+        "ransmission": "Automatic",
+        "type": "Diesel"
+    },
+    "description": "Description in English of Carro 4",
+    "id": "carro4",
+    "images":[
+        "img/carro4_1.jpg",
+        "img/carro4_2.jpg",
+        "img/carro4_3.jpg"
+    ],
+    "name": "Mitsubishi Lancer EVO XII",
+    "sizeAndWeight": {
+        "dimmensions": [
+            "1806.9 mm (w)",
+            "1595.8 mm (h)",
+            "4377.4 mm (l)"
+        ],
+        "weight": "2646.0 Kg"
+    },
+    "space": {
+        "volume": "4361 lt"
+    }
+}

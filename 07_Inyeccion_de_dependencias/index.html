@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="realTempApp">
+    <head>
+        <meta charset="UTF-8">
+        <script src="js/angular.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/services.js"></script>
+        <script src="js/controller.js"></script>
+    </head>
+    <body>
+        <div ng-controller="tempController">
+            <h1>Convertidor de temperatura</h1>
+
+            <form action="#">
+                <label for="">Temperatura en Celsius</label>
+                <input type="text" ng-model="tempInCelsius">
+                <button ng-click="convertTemperatures()">Convertir</button>
+            </form>
+
+            <h3>Fahrenheit: {{resultInFarenheit}} ºF</h3>
+            <h3>Kelvin: {{resultInKelvin}} ºK</h3>
+        </div>
+
+    </body>
+</html>

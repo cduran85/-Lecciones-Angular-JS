@@ -1,0 +1,30 @@
+[
+    {
+        "model": 2004,
+        "id": "carro1",
+        "imageUrl": "img/carro1_1.jpg",
+        "name": "Carro 1",
+        "snippet": "Descripción del carro 1"
+    },
+    {
+        "model": 2001,
+        "id": "carro2",
+        "imageUrl": "img/carro2_1.jpg",
+        "name": "Carro 2",
+        "snippet": "Descripción del carro 2"
+    },
+    {
+        "model": 2002,
+        "id": "carro3",
+        "imageUrl": "img/carro3_1.jpg",
+        "name": "Carro 3",
+        "snippet": "Descripción del carro 3"
+    },
+    {
+        "model": 2003,
+        "id": "carro4",
+        "imageUrl": "img/carro4_1.jpg",
+        "name": "Carro 4",
+        "snippet": "Descripción del carro 4"
+    }
+]
